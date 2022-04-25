@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.first-page {
+  background-image: url(./images/New\ Project.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+  border: 0.2rem solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 11%;
+  border-radius: 1.2rem;
+}
+
+.intro > h1 {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
+}
+
+.intro > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  word-spacing: 0.1rem;
+  position: relative;
+  top: -2rem;
+}
+
+.talk {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  bottom: 1.5rem;
+  border: 0.2rem solid white;
+  height: 2.8rem;
+  width: 8rem;
+  border-radius: 1.2rem;
+}
+
+.skills {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin-top: 6rem;
+}
+
+.skills > h1 {
+  font-family: "Noto Serif", serif;
+}
+
+.skill-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.projects {
+  width: 60%;
+  margin: auto;
+  color: black;
+  margin-top: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects > h1 {
+  font-size: 3rem;
+  font-family: "Noto Serif", serif;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.project-photo {
+  background-color: springgreen;
+  height: 60vh;
+  width: 50%;
+}
+
+.project-info {
+  background-color: rgb(20, 174, 201);
+  height: 60vh;
+  width: 50%;
+}
+
+.about-me {
+  width: 60%;
+  margin: auto;
+  color: black;
+  border: 3px solid rgb(38, 214, 111);
+  margin-top: 16rem;
+  background-color: royalblue;
+  height: 60vh;
+  position: relative;
+  bottom: 3rem;
+  color: white;
+}
