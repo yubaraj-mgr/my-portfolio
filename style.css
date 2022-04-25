@@ -8,11 +8,19 @@ body {
   color: white;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+}
+
 .first-page {
   background-image: url(./images/New\ Project.png);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   position: relative;
 }
 
@@ -51,13 +59,11 @@ nav > ul > li {
 }
 
 .intro > h1 {
-  font-family: "Noto Serif", serif;
   letter-spacing: 0.3rem;
   font-size: 4rem;
 }
 
 .intro > p {
-  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   word-spacing: 0.1rem;
   position: relative;
@@ -83,10 +89,6 @@ nav > ul > li {
   align-items: center;
   color: black;
   margin-top: 6rem;
-}
-
-.skills > h1 {
-  font-family: "Noto Serif", serif;
 }
 
 .skill-list {
@@ -116,7 +118,7 @@ nav > ul > li {
   width: 100%;
 }
 
-.project-photo {
+.project > img {
   background-color: springgreen;
   height: 60vh;
   width: 50%;
@@ -126,17 +128,78 @@ nav > ul > li {
   background-color: rgb(20, 174, 201);
   height: 60vh;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.git-liveCode {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-around;
 }
 
 .about-me {
   width: 60%;
   margin: auto;
   color: black;
-  border: 3px solid rgb(38, 214, 111);
   margin-top: 16rem;
-  background-color: royalblue;
-  height: 60vh;
+  background: linear-gradient(blue, purple);
+  height: 68vh;
   position: relative;
   bottom: 3rem;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5rem;
+}
+
+.about-me > img {
+  height: 15rem;
+  width: 30%;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  top: -5rem;
+}
+
+.my-info {
+  width: 55%;
+}
+
+footer {
+  margin-top: 16rem;
+  background-image: url(./images/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > h1 {
+  font-size: 3rem;
+}
+
+.social-media {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > button {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  bottom: 1.5rem;
+  border: 0.2rem solid white;
+  height: 2.8rem;
+  width: 8rem;
+  border-radius: 1.2rem;
 }
