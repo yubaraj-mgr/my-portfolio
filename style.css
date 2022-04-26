@@ -21,6 +21,7 @@ h1 {
   background-image: url(./images/New\ Project.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 110vh;
   position: relative;
 }
@@ -175,7 +176,7 @@ nav > ul > li {
   display: flex;
   justify-content: space-around;
   border-radius: 5%;
-  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.5);
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
 }
 
 .about-me > img {
@@ -198,6 +199,7 @@ footer {
   background-image: url(./images/footer-bg.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   color: white;
   display: flex;
@@ -225,4 +227,69 @@ footer > button {
   height: 2.8rem;
   width: 8rem;
   border-radius: 1.2rem;
+}
+
+/* media query */
+@media (max-width: 768px) {
+  .first-page {
+    height: 70vh;
+  }
+
+  .intro {
+    transform: scale(0.6);
+    width: 100%;
+  }
+
+  .skills {
+    margin-top: -1rem;
+    width: 80%;
+  }
+
+  .skill-list {
+    margin-right: 3rem;
+  }
+
+  .projects {
+    margin-top: 6rem;
+  }
+
+  .project {
+    margin-top: -10rem;
+    transform: scaleY(0.5);
+  }
+
+  .project-info > h1 {
+    font-size: 1.5rem;
+  }
+
+  .project-info > p {
+    font-size: 0.9rem;
+  }
+
+  .about-me {
+    margin-top: 4rem;
+    height: 20rem;
+  }
+
+  .about-me > img {
+    height: 10rem;
+    width: 35%;
+    border-radius: 50%;
+  }
+
+  .my-info > p {
+    font-size: 0.6rem;
+  }
+
+  footer {
+    margin-top: 5rem;
+    height: 50vh;
+  }
+
+  .social-media {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
 }
