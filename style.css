@@ -165,8 +165,8 @@ nav > ul > li {
   margin-top: 16rem;
   background: linear-gradient(
     180deg,
-    rgba(68, 28, 230, 0.8) 28%,
-    rgba(46, 137, 202, 0.9) 66%
+    rgb(145, 15, 168, 0.8) 28%,
+    rgba(46, 137, 202, 1) 66%
   );
   height: 68vh;
   position: relative;
