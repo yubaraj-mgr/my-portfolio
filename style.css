@@ -115,15 +115,43 @@ nav > ul > li {
 }
 
 .project {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   background-color: white;
-  border-radius: 5%;
-  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.5);
+  display: grid;
+  row-gap: 6rem;
+  background-color: rgb(245, 245, 250);
+  margin-top: 3rem;
 }
 
-.project > img {
+.project1 {
+  display: flex;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.project1 > img {
+  height: 60vh;
+  width: 50%;
+}
+
+.project2 {
+  display: flex;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.project2 > img {
+  height: 60vh;
+  width: 50%;
+}
+
+.project3 {
+  display: flex;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.project3 > img {
   height: 60vh;
   width: 50%;
 }
@@ -254,7 +282,7 @@ footer > button {
   }
 
   .project {
-    margin-top: -10rem;
+    margin-top: -30rem;
     transform: scaleY(0.5);
   }
 
@@ -266,8 +294,15 @@ footer > button {
     font-size: 0.9rem;
   }
 
+  .git-liveCode {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-around;
+  }
+
   .about-me {
-    margin-top: 4rem;
+    margin-top: -17rem;
     height: 20rem;
   }
 
