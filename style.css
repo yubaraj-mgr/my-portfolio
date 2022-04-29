@@ -51,13 +51,13 @@ nav > ul > li {
 .intro {
   width: 60%;
   margin: auto;
-  border: 0.2rem solid white;
+  border: 3px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 11%;
-  border-radius: 1.2rem;
+  margin-top: 7rem;
+  border-radius: 25px;
 }
 
 .intro > h1 {
@@ -70,6 +70,7 @@ nav > ul > li {
   word-spacing: 0.1rem;
   position: relative;
   top: -2rem;
+  margin-left: 1rem;
 }
 
 .talk {
@@ -77,8 +78,8 @@ nav > ul > li {
   color: white;
   position: relative;
   bottom: 1.5rem;
-  border: 0.2rem solid white;
-  height: 2.8rem;
+  border: 3px solid white;
+  padding: 1rem;
   width: 8rem;
   border-radius: 1.2rem;
 }
@@ -339,27 +340,27 @@ footer > button {
 
 @media (max-width: 500px) {
   .first-page {
-    height: 35vh;
+    height: 73vh;
   }
 
   .intro {
-    width: 100%;
-    height: 10rem;
     position: relative;
     top: -1rem;
+    height: 200px;
   }
 
   .intro h1 {
-    font-size: 2rem;
+    font-size: 28px;
   }
 
   .intro p {
-    margin-left: 1rem;
+    margin-left: 16px;
   }
 
   .talk {
     position: relative;
     top: -2.1rem;
+    height: 50px;
   }
 
   .skills {
@@ -388,7 +389,7 @@ footer > button {
   }
 
   .projects {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .projects > h1 {
@@ -396,7 +397,7 @@ footer > button {
   }
 
   .project {
-    margin-top: -55rem;
+    margin-top: -50rem;
     transform: scaleY(0.5);
   }
 
@@ -431,7 +432,7 @@ footer > button {
   }
 
   .about-me {
-    margin-top: -44rem;
+    margin-top: -38rem;
     height: 13.5rem;
     width: 70%;
   }
@@ -448,9 +449,7 @@ footer > button {
   }
 
   footer {
-    position: relative;
-    top: -3rem;
-    height: 30vh;
+    height: 450px;
   }
 
   footer > h1 {
@@ -468,5 +467,25 @@ footer > button {
     top: -5rem;
     width: 100%;
     transform: scale(0.5);
+  }
+}
+
+@media (max-width: 375px) {
+  .intro {
+    position: relative;
+    top: -75px;
+  }
+
+  .skills {
+    position: relative;
+    top: -50px;
+  }
+
+  .projects {
+    margin-top: 1rem;
+  }
+
+  .about-me {
+    margin-top: -30rem;
   }
 }
